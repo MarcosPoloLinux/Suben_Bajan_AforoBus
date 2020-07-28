@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_turnos"
+            android:icon="@drawable/ic_baseline_assignment_turned_in_24"
+            android:title="@string/menu_turnos" />
+        <item
+            android:id="@+id/nav_historico_turnos"
+            android:icon="@drawable/ic_baseline_event_24"
+            android:title="@string/menu_historico_turnos" />
+        <item
+            android:id="@+id/nav_aforos"
+            android:icon="@drawable/ic_baseline_airline_seat_legroom_normal_24"
+            android:title="@string/menu_aforos" />
+        <item
+            android:id="@+id/nav_ajustes"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/ajustes" />
+        <item
+            android:id="@+id/nav_ayuda"
+            android:icon="@drawable/ic_baseline_live_help_24"
+            android:title="@string/menu_ayuda" />
+        <item
+            android:id="@+id/nav_acercade"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/menu_acerca_de" />
+        <item
+            android:id="@+id/nav_privacidad"
+            android:icon="@drawable/ic_baseline_https_24"
+            android:title="@string/menu_privacidad" />
+    </group>
+</menu>

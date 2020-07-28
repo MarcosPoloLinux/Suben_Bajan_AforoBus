@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HoraPuntaFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_prevision_horapunta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prevision_horapunta"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_hora_punta_texto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="right"
+                android:text="@string/hora_2puntos"
+                android:textSize="18sp"></TextView>
+
+            <TextView
+                android:id="@+id/text_viajeros_bus_horapunta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="40dp"
+                android:gravity="right"
+                android:text="@string/viajerosenelbus_2puntos"
+                android:textSize="18sp"></TextView>
+
+            <TextView
+                android:id="@+id/text_completo_horapunta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="40dp"
+                android:gravity="right"
+                android:text="@string/completo_2puntos"
+                android:textColor="@color/colorCompleto"
+                android:textSize="18sp"></TextView>
+
+            <TextView
+                android:id="@+id/text_total_de_viajeros_horapunta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:gravity="right"
+                android:text="@string/totaldeviajeros_horapunta_2puntos"
+                android:textSize="18sp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_hora_punta_numero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="left"
+                android:text="00:00"
+                android:textSize="18sp"></TextView>
+
+            <TextView
+                android:id="@+id/text_viajeros_bus_horapunta_numero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:gravity="left"
+                android:text="00"
+                android:textSize="18sp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:text=""
+                android:textColor="@color/colorCompleto"
+                android:textSize="18sp"></TextView>
+
+            <TextView
+                android:id="@+id/text_total_de_viajeros_horapunta_numero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="00"
+                android:textSize="18sp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/boton_aceptar" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

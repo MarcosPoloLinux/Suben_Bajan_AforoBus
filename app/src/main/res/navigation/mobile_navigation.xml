@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mundobinario.subenbajanaforobus.ui.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_turnos"
+        android:name="com.mundobinario.subenbajanaforobus.ui.turnos.TurnosFragment"
+        android:label="@string/menu_turnos"
+        tools:layout="@layout/fragment_turnos" />
+
+    <fragment
+        android:id="@+id/nav_historico_turnos"
+        android:name="com.mundobinario.subenbajanaforobus.ui.historico_turnos.Historico_TurnosFragment"
+        android:label="@string/menu_historico_turnos"
+        tools:layout="@layout/fragment_historico_turnos" />
+
+    <fragment
+        android:id="@+id/nav_aforos"
+        android:name="com.mundobinario.subenbajanaforobus.ui.aforo.AforoFragment"
+        android:label="@string/menu_aforos"
+        tools:layout="@layout/fragment_aforos" />
+
+    <fragment
+        android:id="@+id/nav_ajustes"
+        android:name="com.mundobinario.subenbajanaforobus.ui.ajustes.AjustesFragment"
+        android:label="@string/ajustes"
+        tools:layout="@layout/fragment_ajustes" />
+
+    <fragment
+        android:id="@+id/nav_ayuda"
+        android:name="com.mundobinario.subenbajanaforobus.ui.ayuda.AyudaFragment"
+        android:label="@string/menu_ayuda"
+        tools:layout="@layout/fragment_ayuda"/>
+
+    <fragment
+        android:id="@+id/nav_acercade"
+        android:name="com.mundobinario.subenbajanaforobus.ui.acercade.AcercaDeFragment"
+        android:label="@string/menu_acerca_de"
+        tools:layout="@layout/fragment_acerca_de" />
+
+    <fragment
+        android:id="@+id/nav_privacidad"
+        android:name="com.mundobinario.subenbajanaforobus.ui.privacidad.PrivacidadFragment"
+        android:label="@string/menu_privacidad"
+        tools:layout="@layout/fragment_privacidad"/>
+
+</navigation>

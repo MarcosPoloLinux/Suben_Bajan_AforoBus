@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Suben Bajan AforoBus</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">AforoBus</string>
+    <string name="nav_header_subtitle">Control de aforo en autobús</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_turnos">Turnos</string>
+    <string name="menu_historico_turnos">Histórico de Turnos</string>
+    <string name="menu_aforos">Aforos</string>
+    <string name="menu_personalizacion_avisos">Personalización de Avisos</string>
+    <string name="menu_ayuda">Ayuda</string>
+    <string name="menu_acerca_de">Acerca de</string>
+    <string name="menu_privacidad">Privacidad</string>
+    <string name="home">Inicio</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mensaje_bienvenida_home">Bienvenido al Bus</string>
+    <string name="turno_tv">Turno</string>
+    <string name="detalle_turno_tv">Pulsa aquí para añadir tu Primer Turno</string>
+    <string name="aforo_tv">Aforo Máximo</string>
+    <string name="detalle_aforo_tv">Pulsa aquí para añadir el Primer Aforo</string>
+    <string name="modo_conteo_tv">Modo de Conteo de Subidas</string>
+    <string name="detalle_conteo_tv">Pulsa aquí para elegir el Modo</string>
+    <string name="como_comienzas">¿Cómo comenzarás el viaje?</string>
+    <string name="radiobutton_cabecera">En Cabecera, SIN Viajeros</string>
+    <string name="radiobutton_relevo">En Relevo, CON Viajeros</string>
+    <string name="input_numero_viajeros_relevo">Número Viajeros</string>
+    <string name="boton_comenzar_viaje">Comenzar Viaje</string>
+    <string name="prevision_horapunta">Previsión de Hora Punta</string>
+    <string name="hora_2puntos">Hora:</string>
+    <string name="viajerosenelbus_2puntos">Viajeros en el Bus:</string>
+    <string name="completo_2puntos">COMPLETO</string>
+    <string name="totaldeviajeros_horapunta_2puntos">Total de Viajeros:</string>
+    <string name="boton_aceptar">Aceptar</string>
+    <string name="lista_aforos">Lista de Aforos de Buses</string>
+</resources>
